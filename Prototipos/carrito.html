@@ -1,0 +1,71 @@
+<HTML>
+    <HEAD>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </HEAD>
+    <BODY>
+        <div class="container-xxl">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2ED5AA;">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">TIENDA XD</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Perfil</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categoria
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Vegetales</a></li>
+                        <li><a class="dropdown-item" href="#">Frutas</a></li>
+                        <li><a class="dropdown-item" href="#">Granos</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="submit" class="btn btn-default">
+                        <span class=".glyphicon .glyphicon-shopping-cart" style="background-color: #D5932E;"></span>
+                      </button>
+                    <button class="btn btn-outline-success" type="submit" style="background-color: #D5932E;">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+            <div class="card mb-3"  style="max-width: 500px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="img/arroz.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Arroz Diana 500g</h5>
+                  <p class="card-text">$1.500</p>
+                  <a href="#" class="btn" style="background-color: #D5932E;">Eliminar del carrito</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <h6 style="text-align: right;">Total productos: $1.500</h6>
+            <h6 style="text-align: right;">Costo domicilio: $3.000</h6>
+            <h5 style="text-align: right;">Total a pagar: $4.500</h5>
+            <div class="list-group">
+                <label class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="">
+                  Pago contra entrega
+                </label>
+                <label class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="">
+                  Pago en linea
+                </label>
+              </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn me-md-2" style="background-color: #D5932E;" type="button">Ir a pagar</button>
+              </div>
+        </div>
+    </BODY>
+</HTML>
